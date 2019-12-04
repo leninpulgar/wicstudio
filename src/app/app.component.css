@@ -1,0 +1,202 @@
+/* Header */
+.header{
+    background:url(../assets/img/header.png) center no-repeat;
+    background-size:cover;
+    min-height:500px;
+    width:100%;
+    display:flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(255,255,255,.5);
+  background-blend-mode: luminosity;
+
+  padding:4em 0;
+}
+
+.header h2{
+    color:#fff;
+    font-size:64px;
+    font-weight:bold;
+    line-height: 1em
+}
+
+.header h2 span{
+    display:block;
+    font-size:24px;
+    line-height: 1.5em;
+    margin-top:1em
+}
+
+.header form{
+    background-color:rgba(255,255,255,.1);
+    border-radius: 10px;
+    padding:2em;
+    color:#fff;
+
+    border:2px solid #fff;
+}
+
+.form-optin h3{
+    color:#fff;
+    font-weight: bold;
+}
+
+.form-optin button[type=submit]{
+    width:100%;
+    font-size:24px;
+    font-weight:bold;
+    background-color:rgba(255,255,255,.1);
+    border:2px solid #fff;
+    border-radius:10px;
+    margin-top:2em
+}
+/*.form-optin button[type=submit]{
+    width:100%;
+    font-size:24px;
+    font-weight:bold;
+    cursor:pointer;
+}*/
+
+.form-optin p{
+    margin-top:1.5em;
+}
+.form-optin .text-muted{
+    color:#fff !important;
+}
+
+/* Introduction */
+.introduction{
+    padding:4em 0;
+}
+.introduction h2{
+    font-size:32px;
+    font-weight:bold;
+    text-align:center;
+    margin-bottom:1em;
+}
+
+/* Testimonial */
+.testimonial{
+    background-color:#F4EC37;
+    padding:4em 0;
+}
+.testimonial .avatar{
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    background-color:#fff;
+    vertical-align: middle;
+    margin-right:160px;
+    background-size:cover;
+}
+
+.gerardo {
+    background:url(../assets/img/testimonial.jpeg) center no-repeat;
+}
+
+.fefi{
+    background:url(../assets/img/fefi.jpeg) center no-repeat;
+}
+
+.abelardo{
+    background:url(../assets/img/abelardo.jpg) center no-repeat;
+}
+
+.musiana{
+    background:url(../assets/img/musiana.jpg) center no-repeat;
+}
+
+.testimonial h3{
+    font-weight: bold;
+    font-size:32px;
+}
+.testimonial h3 span{
+    font-size:18px;
+    font-weight: 400;
+}
+
+/* Services */
+.services{
+    padding:4em 0;
+}
+
+.services h2{
+    width:100%;
+    text-align:center;
+    font-weight:bold;
+    margin-bottom:2em;
+}
+
+.services h3::before{
+    content:'';
+    display:block;
+    width:115px;
+    height:115px;
+    margin:0 auto;
+    margin-bottom:1em;
+    background-size:contain;
+}
+.services h3{
+    text-align:center;
+    font-weight: bold;
+    margin-bottom:1em;
+}
+
+.services p{
+    text-align:justify;
+}
+.marketing::before{
+    background:url(../assets/img/marketing.png) center no-repeat;
+}
+.branding::before{
+    background:url(../assets/img/branding.png) center no-repeat;
+}
+.webdesign::before{
+    background:url(../assets/img/webdesign.png) center no-repeat;
+}
+
+.elfsight-app-cf3df243-0570-4ac6-a206-eb3000062aec > a{
+    display:none;
+}
+
+@media (max-width: 576px) { 
+    .header{
+        padding:2em 0;
+    }
+    .header h2{
+        font-size:32px
+    }
+    .header h2 span{
+        font-size:16px;
+    }
+    .introduction h2{
+        font-size:24px;
+    }
+
+    .testimonial .avatar{
+        width: 50%;
+        height: 0;
+        padding-bottom: 50%;
+        margin:0 auto;
+    }
+    .testimonial h3{
+        font-size:32px;
+        text-align: center;
+        margin-top:1em;
+    }
+    .services p{
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    .testimonial h3{
+        font-weight: bold;
+        font-size:24px;
+    }
+
+    .owl-carousel{
+        margin: 0 auto;
+    }
+ }

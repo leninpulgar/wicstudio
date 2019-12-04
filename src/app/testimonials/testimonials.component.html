@@ -1,0 +1,45 @@
+<!--
+    <section class="testimonial">
+    <div class="container">
+
+            <owl-carousel [options]="carouselOptions" [items]="images" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+                    <div class="item row" *ngFor="let image of images;let i= index">
+
+                        <div class="col-12 col-sm-12 col-md-2">  
+                                <div class="img-holder"><img class="slide-image" src="{{image.image}}" ></div> 
+                        </div>
+
+                        <div class="slide-text col-12 col-sm-12 col-md-10">
+                            <h3>"{{image.text}}"
+                            <br><span>{{image.author}} - <a href="{{image.rrssa}}">{{image.rrss}}</a></span>
+                            </h3>
+                        </div>
+
+                    </div>
+            </owl-carousel>
+
+    </div>
+</section>
+-->
+
+<section class="testimonial">
+    <div class="container">
+
+            <owl-carousel [options]="carouselOptions" [items]="images" [carouselClasses]="['owl-theme', 'sliding', '100-mobile']">
+                    <div class="item row center-mobile" *ngFor="let image of images;let i= index">
+
+                        <div class="col-12 col-sm-12 col-md-2">  
+                                <img class="slide-image2" src="{{image.image}}" >
+                        </div>
+
+                        <div class="slide-text col-12 col-sm-12 col-md-10">
+                            <h3>"{{image.text}}"
+                            <br><span>{{image.author}} - <a href="{{image.rrssa}}">{{image.rrss}}</a></span>
+                            </h3>
+                        </div>
+
+                    </div>
+            </owl-carousel>
+
+    </div>
+</section>

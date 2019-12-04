@@ -1,0 +1,90 @@
+/* Testimonial */
+.testimonial{
+    background-color:#F4EC37;
+    padding:4em 0;
+}
+.testimonial .avatar{
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    background-color:#fff;
+    vertical-align: middle;
+    margin-right:160px;
+    background-size:cover;
+
+    object-fit: fill
+}
+
+.img-holder{
+ 
+}
+
+.slide-image{
+    width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px;
+
+  object-fit: cover;
+  object-position: center right;
+}
+
+.avatar-img{
+    width:50px;
+    height:50px;
+    background-color:red;
+}
+
+.gerardo {
+    background:url(../../assets/img/testimonial.jpeg) center no-repeat;
+}
+
+.fefi{
+    background:url(../../assets/img/fefi.jpeg) center no-repeat;
+}
+
+.abelardo{
+    background:url(../../assets/img/abelardo.jpg) center no-repeat;
+}
+
+.musiana{
+    background:url(../../assets/img/musiana.jpg) center no-repeat;
+}
+
+.testimonial h3{
+    font-weight: bold;
+    font-size:32px;
+}
+.testimonial h3 span{
+    font-size:18px;
+    font-weight: 400;
+}
+
+@media (max-width: 576px) { 
+
+    .testimonial .avatar{
+        width: 50%;
+        height: 0;
+        padding-bottom: 50%;
+        margin:0 auto;
+    }
+    .testimonial h3{
+        font-size:32px;
+        text-align: center;
+        margin-top:1em;
+    }
+    .services p{
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    .testimonial h3{
+        font-weight: bold;
+        font-size:24px;
+    }
+
+    .center-mobile {
+        width:100%;
+        margin: 0 auto !important;
+    }
+ }
